@@ -9,7 +9,7 @@
     <children>
         <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="LED-1" onAction="#btnLed1Clicked"/>
         <Button layoutX="74.0" layoutY="14.0" mnemonicParsing="false" text="LED-2" onAction="#btnLed2Clicked"/>
-        <Slider layoutX="139.0" layoutY="20.0" min="1" max="19" fx:id="slider" onMouseDragged="#sliderDragged"
+        <Slider layoutX="139.0" layoutY="20.0" min="0" max="100" fx:id="slider" onMouseDragged="#sliderDragged"
                 majorTickUnit="1.0" minorTickCount="1"/>
     </children>
 </AnchorPane>
